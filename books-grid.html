@@ -1,0 +1,325 @@
+<!DOCTYPE HTML>
+<!--
+	TXT by HTML5 UP - Books Grid View
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	modified by jptynan 5/12/2026
+-->
+<html>
+	<head>
+		<title>Books - Grid View | JPTynan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.progress-container {
+				margin-top: 1em;
+				margin-bottom: 1em;
+			}
+			.progress-label {
+				font-size: 0.9em;
+				font-weight: 600;
+				margin-bottom: 0.3em;
+				color: #555;
+			}
+			.progress-bar {
+				width: 100%;
+				height: 20px;
+				background-color: #f0f0f0;
+				border-radius: 10px;
+				overflow: hidden;
+				border: 1px solid #ddd;
+			}
+			.progress-fill {
+				height: 100%;
+				background: linear-gradient(90deg, #0ea5e9, #06b6d4);
+				transition: width 0.3s ease;
+			}
+			.progress-text {
+				font-size: 0.85em;
+				margin-top: 0.3em;
+				color: #666;
+				text-align: right;
+			}
+			.purchase-links {
+				display: flex;
+				gap: 0.5em;
+				flex-wrap: wrap;
+				margin-top: 1em;
+			}
+			.purchase-links a {
+				flex: 1;
+				min-width: 80px;
+				padding: 0.6em 0.8em;
+				font-size: 0.85em;
+				text-align: center;
+				border-radius: 4px;
+				text-decoration: none;
+				transition: all 0.2s;
+			}
+			.btn-ebook {
+				background-color: #a855f7;
+				color: white;
+			}
+			.btn-ebook:hover {
+				background-color: #9333ea;
+			}
+			.btn-print {
+				background-color: #ef4444;
+				color: white;
+			}
+			.btn-print:hover {
+				background-color: #dc2626;
+			}
+			.btn-audiobook {
+				background-color: #f97316;
+				color: white;
+			}
+			.btn-audiobook:hover {
+				background-color: #ea580c;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<div class="logo container">
+						<div>
+							<h1><a href="index.html" id="logo">JPTynan</a></h1>
+							<p>Author & Self-Publisher</p>
+						</div>
+					</div>
+				</header>
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<a href="#">Books</a>
+							<ul>
+								<li class="current"><a href="books-grid.html">Grid View</a></li>
+								<li><a href="books-list.html">List View</a></li>
+							</ul>
+						</li>
+						<li><a href="about.html">About the Author</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<h2>My Books - Grid View</h2>
+								<p>Browse my published and upcoming works. Progress bars show the current completion status of works in progress.</p>
+							</div>
+						</div>
+
+						<!-- Books Grid -->
+						<!-- COPY THIS ENTIRE BOOK CARD BLOCK TO ADD NEW BOOKS -->
+						<div class="row gtr-200">
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box feature">
+									<a href="#" class="image featured"><img src="images/pic01.jpg" alt="Book Cover" /></a>
+									<h3><a href="#">Book Title One</a></h3>
+									<p class="book-author">By JPTynan</p>
+									<p>
+										A compelling story about adventure and discovery. Follow the journey of unforgettable characters 
+										as they navigate challenges and uncover hidden truths. Perfect for readers who love [GENRE].
+									</p>
+									<div class="progress-container">
+										<div class="progress-label">Writing Progress</div>
+										<div class="progress-bar">
+											<div class="progress-fill" style="width: 85%;"></div>
+										</div>
+										<div class="progress-text">85% Complete</div>
+									</div>
+									<div class="purchase-links">
+										<a href="#" class="btn-ebook">Ebook</a>
+										<a href="#" class="btn-print">Print</a>
+										<a href="#" class="btn-audiobook">Audio</a>
+									</div>
+								</article>
+							</div>
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box feature">
+									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="Book Cover" /></a>
+									<h3><a href="#">Book Title Two</a></h3>
+									<p class="book-author">By JPTynan</p>
+									<p>
+										An engaging narrative that explores complex themes through the eyes of relatable characters. 
+										A must-read for fans of contemporary fiction and [GENRE].
+									</p>
+									<div class="progress-container">
+										<div class="progress-label">Writing Progress</div>
+										<div class="progress-bar">
+											<div class="progress-fill" style="width: 100%;"></div>
+										</div>
+										<div class="progress-text">100% Complete</div>
+									</div>
+									<div class="purchase-links">
+										<a href="#" class="btn-ebook">Ebook</a>
+										<a href="#" class="btn-print">Print</a>
+										<a href="#" class="btn-audiobook">Audio</a>
+									</div>
+								</article>
+							</div>
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box feature">
+									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="Book Cover" /></a>
+									<h3><a href="#">Book Title Three</a></h3>
+									<p class="book-author">By JPTynan</p>
+									<p>
+										Dive into a world of mystery and intrigue. This thrilling tale will keep you guessing until the very last page. 
+										Ideal for readers who enjoy [GENRE] with unexpected twists.
+									</p>
+									<div class="progress-container">
+										<div class="progress-label">Writing Progress</div>
+										<div class="progress-bar">
+											<div class="progress-fill" style="width: 60%;"></div>
+										</div>
+										<div class="progress-text">60% Complete</div>
+									</div>
+									<div class="purchase-links">
+										<a href="#" class="btn-ebook">Ebook</a>
+										<a href="#" class="btn-print">Print</a>
+										<a href="#" class="btn-audiobook">Audio</a>
+									</div>
+								</article>
+							</div>
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box feature">
+									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="Book Cover" /></a>
+									<h3><a href="#">Book Title Four</a></h3>
+									<p class="book-author">By JPTynan</p>
+									<p>
+										A powerful exploration of [THEME]. This book challenges conventional thinking and offers fresh perspectives 
+										on [TOPIC]. A transformative read for [TARGET AUDIENCE].
+									</p>
+									<div class="progress-container">
+										<div class="progress-label">Writing Progress</div>
+										<div class="progress-bar">
+											<div class="progress-fill" style="width: 45%;"></div>
+										</div>
+										<div class="progress-text">45% Complete</div>
+									</div>
+									<div class="purchase-links">
+										<a href="#" class="btn-ebook">Ebook</a>
+										<a href="#" class="btn-print">Print</a>
+										<a href="#" class="btn-audiobook">Audio</a>
+									</div>
+								</article>
+							</div>
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box feature">
+									<a href="#" class="image featured"><img src="images/pic05.jpg" alt="Book Cover" /></a>
+									<h3><a href="#">Book Title Five</a></h3>
+									<p class="book-author">By JPTynan</p>
+									<p>
+										An unforgettable journey through [SETTING/WORLD]. Rich with detail and emotion, this novel showcases 
+										[YOUR WRITING STYLE] at its finest. [GENRE] readers will find this absolutely captivating.
+									</p>
+									<div class="progress-container">
+										<div class="progress-label">Writing Progress</div>
+										<div class="progress-bar">
+											<div class="progress-fill" style="width: 30%;"></div>
+										</div>
+										<div class="progress-text">30% Complete</div>
+									</div>
+									<div class="purchase-links">
+										<a href="#" class="btn-ebook">Ebook</a>
+										<a href="#" class="btn-print">Print</a>
+										<a href="#" class="btn-audiobook">Audio</a>
+									</div>
+								</article>
+							</div>
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box feature">
+									<a href="#" class="image featured"><img src="images/pic01.jpg" alt="Book Cover" /></a>
+									<h3><a href="#">Coming Soon</a></h3>
+									<p class="book-author">By JPTynan</p>
+									<p>
+										I'm currently working on an exciting new project that will explore [DESCRIPTION]. 
+										Stay tuned for more information. Subscribe to my mailing list for release date announcements!
+									</p>
+									<div class="progress-container">
+										<div class="progress-label">Writing Progress</div>
+										<div class="progress-bar">
+											<div class="progress-fill" style="width: 15%;"></div>
+										</div>
+										<div class="progress-text">15% Complete</div>
+									</div>
+									<div class="purchase-links">
+										<a href="index.html" class="btn-ebook" style="width: 100%; cursor: pointer;">Subscribe for Updates</a>
+									</div>
+								</article>
+							</div>
+
+						</div>
+						<!-- END BOOK CARD BLOCK -->
+
+						<div class="row">
+							<div class="col-12">
+								<ul class="actions" style="margin-top: 2em;">
+									<li><a href="books-list.html" class="button alt">View List</a></li>
+									<li><a href="index.html" class="button">Back to Home</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-12">
+
+								<!-- Contact Info -->
+									<section>
+										<h2 class="major"><span>Get in Touch</span></h2>
+										<ul class="contact">
+											<li><a class="icon brands fa-facebook-f" href="#"><span class="label">Facebook</span></a></li>
+											<li><a class="icon brands fa-twitter" href="#"><span class="label">Twitter</span></a></li>
+											<li><a class="icon brands fa-instagram" href="#"><span class="label">Instagram</span></a></li>
+											<li><a class="icon brands fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li>
+										</ul>
+										<p><a href="contact.html">Send me a message</a></p>
+									</section>
+
+							</div>
+						</div>
+
+						<!-- Copyright -->
+							<div id="copyright">
+								<ul class="menu">
+									<li>&copy; JPTynan. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								</ul>
+							</div>
+
+					</div>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
