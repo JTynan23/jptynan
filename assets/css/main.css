@@ -1981,6 +1981,9 @@ input, select, textarea {
 					background-color: #2E5E86;
 				}
 
+				ul.contact li:hover a.fa-envelope {
+					background-color: #2E5E86;
+				}
 				ul.contact li:hover a.fa-google-plus {
 					background-color: #DA2713;
 				}
