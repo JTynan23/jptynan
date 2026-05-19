@@ -2333,7 +2333,6 @@ input, select, textarea {
 
 			#header .logo h1 {
 				display: inline;
-				pointer-events: none;
 			}
 
 			#header .logo p {
