@@ -6,8 +6,9 @@ Please join my newsletter at https://jptynan.com/index.html#newsletter-signup fo
 
 For business inquiries or feedback, please e-mail me at jordan@jptynan.com
 
+Thank you!
 
-
+_______________________________________________________________________________________________________
 
 Modified from Template below!!
 
