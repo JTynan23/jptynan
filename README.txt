@@ -8,6 +8,8 @@ For business inquiries or feedback, please e-mail me at jordan@jptynan.com
 
 Thank you!
 
+- J. P. Tynan
+
 _______________________________________________________________________________________________________
 
 Modified from Template below!!
